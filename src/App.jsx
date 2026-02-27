@@ -11,7 +11,6 @@ import Newsletter from "./Components/News/Newsletter";
 import Footer from "./Components/Footer/Footer";
 import './App.css'
 
-// --- PREMIUM NEON LOADING ---
 const Loading = () => {
   return (
     <div style={styles.overlay}>
