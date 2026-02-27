@@ -1,0 +1,145 @@
+.hero {
+  padding: 40px 60px;
+  background: #f5f8fb;
+}
+.hero-top {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 25px;
+}
+.hero-left {
+  background: linear-gradient(135deg, #dfeef7, #eef6fb);
+  padding: 50px;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-left img {
+  position: absolute;
+  right: 40px;
+  bottom: 20px;
+  width: 260px;
+}
+
+.hero-left .subtitle {
+  color: #0f4c75;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.hero-left h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.hero-left p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.hero-left button {
+  margin-top: 25px;
+  padding: 12px 22px;
+  background: #f57c00;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-left button:hover {
+  background: #e56f00;
+}
+
+.hero-left .price {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background: #2da5f3;
+  color: #fff;
+  padding: 18px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 18px;
+}
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-card {
+  padding: 25px;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-card img {
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  width: 120px;
+}
+
+.hero-card.dark {
+  background: #111;
+  color: #fff;
+}
+
+.hero-card.dark .badge {
+  background: #f57c00;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.hero-card.light {
+  background: #fff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.hero-card h4 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.hero-card p {
+  font-weight: bold;
+  color: #0f4c75;
+}
+
+.hero-card button {
+  margin-top: 12px;
+  background: #f57c00;
+  border: none;
+  padding: 8px 14px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hero-features {
+  margin-top: 40px;
+  background: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+
+.hero-features div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #0f4c75;
+}

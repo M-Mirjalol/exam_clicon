@@ -1,0 +1,115 @@
+.newsletter-section {
+  background-color: #1B6392; /* Asosiy ko'k fon */
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+.newsletter-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.newsletter-title {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.newsletter-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 40px;
+}
+
+/* Input va Tugma joylashuvi */
+.newsletter-form {
+  background: white;
+  padding: 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-input {
+  flex: 1;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  outline: none;
+  color: #333;
+}
+
+.newsletter-btn {
+  background-color: #FA8231; /* To'q sariq rang */
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s;
+}
+
+.newsletter-btn:hover {
+  background-color: #e67326;
+  transform: translateX(5px);
+}
+
+.arrow-icon {
+  font-size: 14px;
+}
+
+/* Brendlar qismi */
+.brands-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  opacity: 0.7;
+}
+
+.brand-item {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.brand-item:hover {
+  opacity: 1;
+  transform: translateY(-5px);
+}
+
+/* Mobil moslashuv */
+@media (max-width: 600px) {
+  .newsletter-form {
+    flex-direction: column;
+    background: transparent;
+    padding: 0;
+    gap: 15px;
+  }
+  
+  .newsletter-input {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .newsletter-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .brands-grid {
+    justify-content: center;
+  }
+}

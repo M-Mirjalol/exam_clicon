@@ -1,0 +1,64 @@
+.about-section {
+  padding: 50px 0;
+}
+
+.about-card {
+  position: relative;
+  height: 180px;
+  background: #fff;
+  border: 1px solid #e4e7e9;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+/* O'sha mashhur to'q sariq doira effekti */
+.about-overlay {
+  position: absolute;
+  bottom: -30px;
+  left: -30px;
+  width: 90px;
+  height: 90px;
+  background-color: #fcfc00de;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
+}
+.about-card:hover .about-overlay {
+  transform: scale(10);
+  border-radius: 0;
+}
+
+.about-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.about-name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #191c1f;
+  transition: 0.3s;
+}
+
+.about-card:hover .about-name {
+  color: #000dff;
+}
+.about-swiper .swiper-button-next, 
+.about-swiper .swiper-button-prev {
+  background: #fa8231;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  color: #fff !important;
+}
+
+.about-swiper .swiper-button-next:after, 
+.about-swiper .swiper-button-prev:after {
+  font-size: 18px;
+}
